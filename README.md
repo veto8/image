@@ -61,7 +61,7 @@ target_link_libraries(decode_png PRIVATE PNG::PNG)
 5. **Run the Programs**: After building, you will have two executables: `binary_strip` and `decode_png`. You can run them as follows:
    - To encode text into a PNG:
      ```bash
-     ./binary_strip output.png "Your text here"
+     ./encode_png output.png "Your text here"
      ```
    - To decode the PNG back into text:
      ```bash
